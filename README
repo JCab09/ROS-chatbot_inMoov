@@ -1,0 +1,10 @@
+This project aims to import the inMoov chatbot personality "Henry"
+from MyrobotLab to ROS using the chatbot engine "Program-Y"
+
+Roadmap:
+  HIGH Priority
+    - make Henry-aiml files functional under Program-Y
+    - connect chatbot to ROS-node using existing "Program-Y"-clients.
+      Most likely socket-client
+  Normal Priority
+    - create a dedicated ROS-client in Program-Y which publishes Messages
