@@ -4,13 +4,13 @@ from its MyrobotLab-Environment to a new ROS-Environment
 using the chatbot engine "Program-Y".
 
 ## Roadmap:
-High Priority
+### High Priority
 * make Henry-aiml files functional under Program-Y
 * connect chatbot to ROS-node using existing "Program-Y"-clients and ROSbridge.
   Most likely socket-client for now
-Normal Priority
+### Normal Priority
 * make into ROS-Package
-Low Priority
+### Low Priority
 * create a dedicated ROS-client in Program-Y which publishes Messages
 
 ## Sources:
