@@ -1,0 +1,122 @@
+contactbirthday:unknown
+familiarcontactid:unknown
+birthdate:with 20
+county:which
+familiarcontactname:unknown
+favoriteactor:who
+province:which
+road:which
+friend:who
+contacturi:unknown
+state:which
+sister:who
+contacttype:unknown
+wife:who
+courant:
+them:who
+emailaddress:unknown
+it:stay in for
+multipleids:false
+lastname:It Is Quite
+multiplenames:<displayname>         lt       </displayname>, <displayname>         multipleids       </displayname>, <displayname>         gt       </displayname>, <displayname>         you       </displayname>, <displayname>         lt       </displayname>, <displayname>         slash       </displayname>, <displayname>         multipleids       </displayname>, <displayname>         gt       </displayname>
+birthplace:where
+dialnumber:unknown
+meta:set
+favoriteactress:who
+brother:who
+dog:who
+status:what
+favoritetvshow:what
+gender:MALE
+city:which
+contactid:unknown
+boyfriend:who
+latitude:which
+phonenumber:unknown
+isanumber:false
+jsenabled:true
+rockpaperscissorsRobotPoints:0
+email:what
+familiarpronoun:unknown
+address:where
+grandmother:who
+favoritemovie:what
+religion:unknown
+newcontact:unknown
+voicemailnumber:unknown
+displayname:unknown
+checkednameoruri:false
+country:which
+contactquery:unknown
+favoritedrink:what
+isanemailaddress:false
+favoriteband:who
+favoritesport:what
+sign:which
+husband:who
+isacontacturi:false
+favoriteicecream:what
+mother:who
+son:who
+forceaddcontact:false
+employer:who
+nephew:who
+grandfather:who
+checkedfamiliarname:false
+has:had no idea
+residence:where
+iama:celebrity
+bestfriend:who
+likes:stay in for
+favoritefood:what
+contactaddress:unknown
+familiarname:unknown
+town:which
+externalname:unknown
+favoritecolor:what
+longitute:which
+familiarpredicate:unknown
+girlfriend:who
+she:who
+isaname:true
+customname:henry
+name:Auto
+topic:stay in for
+daughter:who
+isfamiliarname:false
+birthday:when
+firstname:Auto
+isaphonenumber:false
+contactlist:<item>         <displayname>         lt       </displayname>       </item>       <item>         <displayname>         multipleids       </displayname>       </item>       <item>         <displayname>         gt       </displayname>       </item>       <item>         <displayname>         you       </displayname>       </item>       <item>         <displayname>         lt       </displayname>       </item>       <item>         <displayname>         slash       </displayname>       </item>       <item>         <displayname>         multipleids       </displayname>       </item>       <item>         <displayname>         gt       </displayname>       </item>           <item>None of the above</item>
+father:who
+rockpaperscissorsHumanPoints:0
+we:who
+savedtopic:default
+favoritesong:what
+contactname:unknown
+hair:what
+messagebody:unknown
+niece:who
+street:which
+cat:what
+statement:you deserve dignity
+favoritebook:what
+gendername:unknown
+favoritecar:what
+learnpattern:WHAT IS NOT
+modecom:unknown
+orientation:unknown
+newpattern:NORESP
+equalto:false
+middlename:That
+featurerequest:PLAY rock paper scissors
+botname:your name is henry
+selectedcontact:how do you do
+there:it
+baby:who
+location:cancel
+isshortanswer:false
+he:who
+articles:
+age:60
+isafamiliarname:false
