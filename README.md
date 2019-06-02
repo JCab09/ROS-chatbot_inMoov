@@ -1,17 +1,21 @@
-# About
+# ProgramY ROS-Client for chatbot Henry
+## About
 This project aims to import the inMoov chatbot personality "Henry"
 from its MyrobotLab-Environment to a new ROS-Environment
 using the chatbot engine "Program-Y".
 
+## Status
+ROSnode client seems functional und configurable.
+Next is to fix grammar errors.
+
 ## Roadmap:
 ### High Priority
 * make Henry-aiml files functional under Program-Y
-* connect chatbot to ROS-node using existing "Program-Y"-clients and ROSbridge.
-  Most likely socket-client for now
+* write extension for inMoov-gestures
 ### Normal Priority
 * make into ROS-Package
 ### Low Priority
-* create a dedicated ROS-client in Program-Y which publishes Messages
+* Write installation-instructions
 
 ## Sources:
 * [Program-Y](https://github.com/keiffster/program-y)

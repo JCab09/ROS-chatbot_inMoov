@@ -1,6 +1,12 @@
 rosnode:
-  description: Program-Y Template Console Client
-  bot:  bot
+  description:  Program-Y AIML2.0 ROSnode Client
+  default_userid: ChatbotHenry
+  bot:  Henry
+  nodename: chatbotHenry
+  subscription: chatIN
+  rostopic: chatOUT
+  rosrate:  1
+  queue_size: 10
 
   scheduler:
     name: Scheduler1
