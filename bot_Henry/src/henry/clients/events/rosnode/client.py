@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 """
 Copyright (c) 2016-2019 Keith Sterling http://www.keithsterling.com
 
@@ -22,8 +22,8 @@ from programy.utils.logging.ylogger import YLogger
 from programy.clients.events.client import EventBotClient
 from henry.clients.events.rosnode.config import ROSnodeConfiguration
 
-# import rospy
-# from std.msgs.msg import String
+import rospy
+from std_msgs.msg import String
 
 class ROSnodeClient(EventBotClient):
     
@@ -40,8 +40,9 @@ class ROSnodeClient(EventBotClient):
     def parse_args(self, arguments, parsed_args):
         return
     
-    def get_question(self, client_context, input_func=input):
-        return input_func()
+    # Write subscriber-code
+    def get_question(self, client_context):
+        return rospy.wait_for_message(self._subscription, String)
 
     def display_startup_messages(self, client_context):
         self.process_response(client_context, client_context.bot.get_version_string(client_context))
@@ -57,27 +58,36 @@ class ROSnodeClient(EventBotClient):
         self._renderer.render(client_context, response)
 
     def process_response(self, client_context, response):
+        self._publisher.publish(response)
         print(response)
         
     def process_question_answer(self, client_context):
         question = self.get_question(client_context)
-        response = self.process_question(client_context, question)
+        print("QUESTION: %s" %question.data)
+        response = self.process_question(client_context, question.data)
         self.render_response(client_context, response)
 
+    # This is the Main Loop!
     def wait_and_answer(self):
         try:
-            running = True
-            client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
-            self.process_question_answer(client_context)
-        except KeyboardInterrupt as keye:
-            running = False
+            while not rospy.is_shutdown():
+                client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
+                self.process_question_answer(client_context)
+        
+        except rospy.ROSInterruptException:
             client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
             self._renderer.render(client_context, client_context.bot.get_exit_response(client_context))
-        except Exception as excep:
-            YLogger.exception(self, "Oops something bad happened !", excep)
-        return running
+            pass
+        
+        return False
 
     def prior_to_run_loop(self):
+        self._topic = self._configuration.client_configuration.rostopic
+        self._subscription = self._configuration.client_configuration.subscription
+        self._publisher = rospy.Publisher(self._topic, String, queue_size=self._configuration.client_configuration.queueSize)
+        rospy.init_node(self._configuration.client_configuration.nodename,anonymous=True)
+        self._rate = rospy.Rate(self._configuration.client_configuration.rosrate)
+        
         client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
         self.display_startup_messages(client_context)
 
@@ -87,7 +97,7 @@ if __name__ == '__main__':
     print("Initiating ROS-Node Client...")
 
     def run():
-        console_app = ROSnodeClient()
-        console_app.run()
+        rosnode_app = ROSnodeClient()
+        rosnode_app.run()
 
     run()
