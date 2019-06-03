@@ -6,14 +6,14 @@ using the chatbot engine "Program-Y".
 
 ## Status
 ROSnode client seems functional und configurable.
-Next is to fix grammar errors.
+The next step is to implement some kind of inMoov-gesture node.
 
 ## Roadmap:
 ### High Priority
-* make Henry-aiml files functional under Program-Y
-* write extension for inMoov-gestures
+* Write OOB extension for inMoov-gestures
+* Fix aiml grammar errors and sets
 ### Normal Priority
-* make into ROS-Package
+* Create ROS-Package
 ### Low Priority
 * Write installation-instructions
 
