@@ -721,6 +721,19 @@
             "srai": false,
             "properties": {},
             "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
         }
     ],
     "max_histories": 100,

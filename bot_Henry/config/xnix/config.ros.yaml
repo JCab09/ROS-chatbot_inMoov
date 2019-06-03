@@ -251,6 +251,8 @@ brain:
         classname: programy.oob.defaults.url.URLOutOfBandProcessor
       wifi:
         classname: programy.oob.defaults.wifi.WifiOutOfBandProcessor
+      mrl:
+        classname: henry.oob.inmoov_gestures.inMoovOutOfBandProcessor
 
     dynamic:
         variables:

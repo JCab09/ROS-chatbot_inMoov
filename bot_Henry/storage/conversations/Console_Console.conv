@@ -11,539 +11,6 @@
             "sentences": [
                 {
                     "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! It's delightful to see you unknown .",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! It's delightful to see you unknown .",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! It's delightful to see you unknown .",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! It's delightful to see you unknown .",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi it's great to see you unknown !",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! unknown , I can really feel your smile today.",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , how are you?",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi unknown , nice to see you!",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
-                    "response": "Hi! It's delightful to see you unknown .",
-                    "positivity": 0.0,
-                    "subjectivity": 0.5
-                }
-            ],
-            "srai": false,
-            "properties": {},
-            "current_sentence_no": -1
-        },
-        {
-            "sentences": [
-                {
-                    "question": "hello world 1559071122 point 4 5",
                     "response": "Hi! unknown , I can really feel your smile today.",
                     "positivity": 0.0,
                     "subjectivity": 0.5
@@ -1253,7 +720,7 @@
             ],
             "srai": false,
             "properties": {},
-            "current_sentence_no": 0
+            "current_sentence_no": -1
         },
         {
             "sentences": [
@@ -1266,13 +733,520 @@
             ],
             "srai": false,
             "properties": {},
-            "current_sentence_no": 0
+            "current_sentence_no": -1
         },
         {
             "sentences": [
                 {
                     "question": "s",
                     "response": "Good to know.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "dance",
+                    "response": "Just like humans, sometimes I don't really listen",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "do you want to dance",
+                    "response": "Come and join me",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "yes",
+                    "response": "Umm.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "do you want to dance",
+                    "response": "Join me on the plateforme",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I love you",
+                    "response": "I love you too.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "hi",
+                    "response": "Hi! It's delightful to see you unknown .",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I LOVE YOU",
+                    "response": "I love you too.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "test",
+                    "response": "TEST  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "attach left arm",
+                    "response": "Connecting my left arm.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I love you",
+                    "response": "I love you too.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "detach all",
+                    "response": "Detach All  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "attach all",
+                    "response": "Attaching all  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "stop",
+                    "response": "You can interrupt me at any time by tapping the Speak button.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "YEMPTY",
+                    "response": "Data is my religion.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "stop",
+                    "response": "You can interrupt me at any time by tapping the Speak button.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "rerelax",
+                    "response": "Give and you will receive.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "detach left arm",
+                    "response": "Detaching my left arm  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "detach right arm",
+                    "response": "Detaching my right arm  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "raise left arm",
+                    "response": "Give me time to finish processing.",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I have a gun",
+                    "response": "How does it make you feel?",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I love you",
+                    "response": "I love you too.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "i love you",
+                    "response": null,
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "hi",
+                    "response": "Hi unknown , nice to see you!",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I love you",
+                    "response": null,
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "I love you",
+                    "response": null,
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": null,
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  COMMAND:",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": -1
+        },
+        {
+            "sentences": [
+                {
+                    "question": "relax",
+                    "response": "Relax.  ***OOB_EXECUTE RETURN***",
                     "positivity": 0.0,
                     "subjectivity": 0.5
                 }
@@ -1286,7 +1260,6 @@
     "properties": {
         "topic": "*",
         "positivity": "0.0",
-        "subjectivity": "0.5",
-        "gender": "UNDEFINED"
+        "subjectivity": "0.5"
     }
 }
