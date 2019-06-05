@@ -18,8 +18,10 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR TH
 Author of this file: Jason Cabezuela https://github.com/JCab09/
 """
 
+import rospy
+from std_msgs.msg import String
 import xml.etree.ElementTree as ET
-
+import henry.oob.settings.gestures as gestSettings
 from programy.oob.defaults.oob import OutOfBandProcessor
 
 class inMoovOutOfBandProcessor(OutOfBandProcessor):
@@ -34,11 +36,11 @@ class inMoovOutOfBandProcessor(OutOfBandProcessor):
     """
     def __init__(self):
         OutOfBandProcessor.__init__(self)
-        print("***OOB_INIT RAN ***")
+        self._pub = rospy.Publisher(gestSettings.g_rostopic_gestures, String, queue_size=gestSettings.g_queueSize)
         self._service = None
         self._method = None
         self._parameter = None
-        
+                
     def parse_oob_xml(self, oob: ET.Element):
         if oob is not None:
             for child in oob:
@@ -55,8 +57,10 @@ class inMoovOutOfBandProcessor(OutOfBandProcessor):
         return False
     
     def execute_oob_command(self, client_context):
-        print("***OOB_EXECUTE***")
-        print("---OOB-Parameter: %s---" %self._parameter)
+        message = String()
+        message.data = self._parameter
+        self._pub.publish(message)
+        print("---OOB PUBLISHED MSSG-PARAM: %s---" %self._parameter)
         return "***OOB_EXECUTE RETURN***"
         
     

@@ -3,9 +3,10 @@ rosnode:
   default_userid: ChatbotHenry
   bot:  Henry
   nodename: chatbotHenry
+  rostopic_chat: chatOUT
+  rostopic_gestures: gestasOUT
   subscription: chatIN
-  rostopic: chatOUT
-  rosrate:  1
+  rosrate:  10
   queue_size: 10
 
   scheduler:

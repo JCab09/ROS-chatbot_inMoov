@@ -19,17 +19,19 @@ This file was created/modified by: Jason Cabezuela
 
 from programy.clients.config import ClientConfigurationData
 from programy.utils.substitutions.substitues import Substitutions
+import henry.oob.settings.gestures as gestSettings
 
 class ROSnodeConfiguration(ClientConfigurationData):
     def __init__(self): 
         ClientConfigurationData.__init__(self, "rosnode")
-        print("***clientconfigurationData DONE***")
+        if gestSettings.g_firstInit == True:
+            gestSettings.g_rostopic_gestures = "gestOut"
+            gestSettings.g_queueSize = 10            
         self._default_userid = "rosClient"
         self._nodename = "chatbot"
-        self._rostopic = "chatOUT"
+        self._rostopic_chat = "chatOUT"
         self._subscription = "chatIN"
         self._rosrate = 10
-        self._queueSize = 10
 
     @property
     def default_userid(self):
@@ -40,8 +42,8 @@ class ROSnodeConfiguration(ClientConfigurationData):
         return self._nodename
 
     @property
-    def rostopic(self):
-        return self._rostopic
+    def rostopic_chat(self):
+        return self._rostopic_chat
     
     @property
     def subscription(self):
@@ -51,28 +53,28 @@ class ROSnodeConfiguration(ClientConfigurationData):
     def rosrate(self):
         return self._rosrate
     
-    @property
-    def queueSize(self):
-        return self._queueSize
 
     def check_for_license_keys(self, license_keys):
         ClientConfigurationData.check_for_license_keys(self, license_keys)
 
     def load_configuration_section(self, configuration_file, rosnode, bot_root, subs: Substitutions = None):
         if rosnode is not None:
+            gestSettings.g_firstInit = False
+            gestSettings.g_rostopic_gestures = configuration_file.get_option(rosnode, "rostopic_gestures", missing_value="gestOUT", subs=subs)
+            gestSettings.g_queueSize = configuration_file.get_option(rosnode, "queue_size", missing_value=10, subs=subs)
             self._default_userid = configuration_file.get_option(rosnode, "default_userid", missing_value="rosClient", subs=subs)
             self._nodename = configuration_file.get_option(rosnode, "nodename", missing_value="chatbot", subs=subs)
-            self._rostopic = configuration_file.get_option(rosnode, "rostopic", missing_value="chatOUT", subs=subs)
+            self._rostopic_chat = configuration_file.get_option(rosnode, "rostopic_chat", missing_value="chatOUT", subs=subs)
             self._subscriber = configuration_file.get_option(rosnode, "subscription", missing_value="chatIN", subs=subs)
             self._rosrate = configuration_file.get_option(rosnode, "rosrate", missing_value=10, subs=subs)
-            self._queueSize = configuration_file.get_option(rosnode, "queue_size", missing_value=10, subs=subs)
             super(ROSnodeConfiguration, self).load_configuration_section(configuration_file, rosnode, bot_root, subs=subs)
 
     def to_yaml(self, data, defaults=True):
         if defaults is True:
             data['default_userid'] = "rosClient"
             data['nodename'] = "chatbot"
-            data['rostopic'] = "chatOUT"
+            data['rostopic_chat'] = "chatOUT"
+            data['rostopic_gestures'] = "gestOUT"
             data['subscription'] = "chatIN"
             data['rosrate'] = 10
             data['queue_size'] = 10
@@ -80,9 +82,10 @@ class ROSnodeConfiguration(ClientConfigurationData):
         else:
             data['default_userid'] = self._default_userid
             data['nodename'] = self._nodename
-            data['rostopic'] = self._rostopic
+            data['rostopic_chat'] = self._rostopic_chat
+            data['rostopic_gestures'] = gestSettings.g_rostopic_gestures
             data['subscription'] = self._subscription
             data['rosrate'] = self._rosrate
-            data['queue_size'] = self._queueSize
+            data['queue_size'] = gestSettings.g_queueSize
             print("to_yaml(specific) exec")
         super(ROSnodeConfiguration, self).to_yaml(data, defaults)

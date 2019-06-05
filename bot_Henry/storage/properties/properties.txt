@@ -58,4 +58,4 @@ amis:lot of inmoov clones
 
 favoritecolor:ultra violet
 logo:<img src="http://inmoov.fr/wp-content/uploads/2012/11/DSC07048.jpg" width="128"/>
-religion:Atheiste
+religion:ROS-thology

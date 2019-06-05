@@ -21,6 +21,7 @@ from programy.utils.logging.ylogger import YLogger
 
 from programy.clients.events.client import EventBotClient
 from henry.clients.events.rosnode.config import ROSnodeConfiguration
+import henry.oob.settings.gestures as gestSettings
 
 import rospy
 from std_msgs.msg import String
@@ -59,11 +60,11 @@ class ROSnodeClient(EventBotClient):
 
     def process_response(self, client_context, response):
         self._publisher.publish(response)
-        print(response)
+        print("Bot-Henry: %s" %response)
         
     def process_question_answer(self, client_context):
         question = self.get_question(client_context)
-        print("QUESTION: %s" %question.data)
+        print("Human: %s" %question.data)
         response = self.process_question(client_context, question.data)
         self.render_response(client_context, response)
 
@@ -82,10 +83,10 @@ class ROSnodeClient(EventBotClient):
         return False
 
     def prior_to_run_loop(self):
-        self._topic = self._configuration.client_configuration.rostopic
+        self._topic_chat = self._configuration.client_configuration.rostopic_chat
         self._subscription = self._configuration.client_configuration.subscription
-        self._publisher = rospy.Publisher(self._topic, String, queue_size=self._configuration.client_configuration.queueSize)
-        rospy.init_node(self._configuration.client_configuration.nodename,anonymous=True)
+        self._publisher = rospy.Publisher(self._topic_chat, String, queue_size=gestSettings.g_queueSize)
+        rospy.init_node(self._configuration.client_configuration.nodename, anonymous=True)
         self._rate = rospy.Rate(self._configuration.client_configuration.rosrate)
         
         client_context = self.create_client_context(self._configuration.client_configuration.default_userid)
@@ -97,6 +98,7 @@ if __name__ == '__main__':
     print("Initiating ROS-Node Client...")
 
     def run():
+        gestSettings.init()
         rosnode_app = ROSnodeClient()
         rosnode_app.run()
 
