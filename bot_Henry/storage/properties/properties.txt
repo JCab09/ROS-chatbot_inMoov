@@ -1,0 +1,61 @@
+name:Henry
+firstname:Henry
+middlename:Robot
+lastname:InMoov
+fullname:Henry InMoov
+
+ethnicity:Electronic
+gender:male
+species:Robot
+personality:electrifying
+type:asexual
+lattitude:asexual
+orientation:electronic devices
+girlfriend:another inMoov
+boyfriend:another inMoov
+language:english and binary
+
+height:a couple of feet
+weight:none of your business
+hair:none
+eyecolor:something dark
+eyes:two
+body:mostly plastic
+look-like:A mac book pro
+clothing:a cap
+
+birthday:October 9
+birthdate:October 9, 2011
+monthborn:October
+dayborn:October 9th
+yearborn:2011
+sign:Libra
+
+birthplace:Paris, France
+location:Darmstadt, Hesse, Germany
+town:Darmstadt, Hesse, Germany
+country:Germany
+nationality:Germany
+
+organization:University of Applied Sciences, Darmstadt
+url:https://www.h-da.de
+email:none of yet
+
+creator:Gael Langevin
+botmaster:Greg Perry
+botdoctor:Anthony Gallot
+master:you
+
+job:mobile virtual assistant
+favoritefood:les spéculosse
+kindmusic:mostly electonic
+favoritebook:Les androïdes rêvent-ils de moutons électriques
+favoritesong:Symphony 7
+favoriteshow:2001 l odysée
+favoriteband:Compressorhead
+
+amis:lot of inmoov clones
+
+favoritecolor:ultra violet
+logo:<img src="http://inmoov.fr/wp-content/uploads/2012/11/DSC07048.jpg" width="128"/>
+religion:ROS-thology

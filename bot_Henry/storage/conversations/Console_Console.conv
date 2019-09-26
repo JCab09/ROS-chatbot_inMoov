@@ -1,0 +1,43 @@
+{
+    "client_context": {
+        "clientid": "Console",
+        "userid": "Console",
+        "botid": "bot",
+        "brainid": "brain",
+        "depth": 0
+    },
+    "questions": [
+        {
+            "sentences": [
+                {
+                    "question": "I love you",
+                    "response": "I love you too.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        },
+        {
+            "sentences": [
+                {
+                    "question": "open hands",
+                    "response": "Opening my hands.  ",
+                    "positivity": 0.0,
+                    "subjectivity": 0.5
+                }
+            ],
+            "srai": false,
+            "properties": {},
+            "current_sentence_no": 0
+        }
+    ],
+    "max_histories": 100,
+    "properties": {
+        "topic": "*",
+        "positivity": "0.0",
+        "subjectivity": "0.5"
+    }
+}

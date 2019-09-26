@@ -1,0 +1,2 @@
+<aiml>
+<category><pattern>WHAT IS MY HEAD</pattern><topic>*</topic><that>*</that><template>thinking</template></category><category><pattern>WHAT IS THINKING</pattern><topic>*</topic><that>*</that><template>Your head</template></category></aiml>
